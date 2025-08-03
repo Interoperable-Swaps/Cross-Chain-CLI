@@ -1,0 +1,36 @@
+{
+  "name": "solver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.ts'",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.18",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
+  },
+  "dependencies": {
+    "@1inch/byte-utils": "^3.1.0",
+    "@1inch/cross-chain-sdk": "git+https://github.com/Interoperable-Swaps/tezos-chain-sdk.git",
+    "@taquito/taquito": "^22.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.15.0",
+    "tezos-ghostnet-cross-chain-sdk": "^0.1.15",
+    "viem": "^2.29.4"
+  }
+}
