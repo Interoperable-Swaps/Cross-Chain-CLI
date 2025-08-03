@@ -9,9 +9,10 @@ export const sepoliaUSDCContract = "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238";
 export const etherlinkUSDCContract =
   "0x4C2AA252BEe766D3399850569713b55178934849";
 
+export const tezosTokenContractAddress = "KT1WvwSEk2muVzyWeCH6tEntUSfn89QQRoLH";
 
-export const tezosTokenContract = "KT1WvwSEk2muVzyWeCH6tEntUSfn89QQRoLH";
+export const tezosEscrowSrcFactoryContractAddress =
+  "KT1QchTYqYu7tw7hrPuX9ED8WhQeJtpYXViz";
 
-export const tezosEscrowSrcFactoryContract = "KT1PPH9mMKc82psFUdNyxQ9EGyTvW1aB5JtS";
-
-export const tezosEscrowDstFactoryContract = "KT1JiQpFkLQM1MQR7NNSB5Jcrcn3rBEGeM7A";
+export const tezosEscrowDstFactoryContractAddress =
+  "KT18hT9tJ1qXRpNg3tj7QFbNsddDHv1qgipG";
